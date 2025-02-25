@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PetitPotam"
+version = "0.1.0"
+description = "PoC tool to coerce Windows hosts to authenticate to other machines via MS-EFSRPC EfsRpcOpenFileRaw or other functions."
+dependencies = [
+    "impacket",
+]
+
+[project.scripts]
+petitpotam = "petitpotam.__main__:main"
+
