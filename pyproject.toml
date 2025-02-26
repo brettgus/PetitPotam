@@ -11,5 +11,5 @@ dependencies = [
 ]
 
 [project.scripts]
+PetitPotam = "PetitPotam.__main__:main"
 petitpotam = "PetitPotam.__main__:main"
-
